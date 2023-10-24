@@ -15,6 +15,68 @@
         android:textAlignment="textStart"
         android:text="Sign Up Here..."
         android:textSize="30sp"/>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="20dp"
+        android:layout_margin="20dp">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+             <de.hdodenhof.circleimageview.CircleImageView
+                 android:layout_width="100dp"
+                 android:layout_height="100dp"
+                 app:civ_border_width="2dp"
+                 app:civ_border_color="@color/black"
+                 app:civ_border_overlay="true"
+                 android:src="@drawable/baseline_person_4_24"
+                 android:layout_gravity="center"
+                 android:layout_margin="20dp"
+                 android:id="@+id/image_user_signup"/>
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/ThemeOverlay.Material3.AutoCompleteTextView.OutlinedBox"
+                    android:layout_margin="10dp">
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Email"
+                        android:textAlignment="textStart"
+                        android:textStyle="bold"
+                        android:drawableEnd="@drawable/baseline_email_24"
+                        android:id="@+id/email_user_signup"
+                        android:inputType="textEmailAddress"
+                        android:autofillHints="emailAddress"/>
+                </com.google.android.material.textfield.TextInputLayout>
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/ThemeOverlay.Material3.AutoCompleteTextView.OutlinedBox"
+                    app:passwordToggleEnabled="true"
+                    app:passwordToggleTint="@color/black"
+                    android:layout_margin="10dp">
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Password"
+                        android:textStyle="bold"
+                        android:inputType="textPassword"
+                        android:autofillHints="password"
+                        android:id="@+id/password_user_signup"/>
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+        </ScrollView>
+
+    </androidx.cardview.widget.CardView>
 
 
 </RelativeLayout>
