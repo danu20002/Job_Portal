@@ -6,6 +6,15 @@
     android:layout_height="match_parent"
     android:background="@color/design_default_color_primary"
     tools:context=".User_SignUp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textAlignment="textStart"
+        android:text="Sign Up Here..."
+        android:textSize="30sp"/>
 
 
 </RelativeLayout>
