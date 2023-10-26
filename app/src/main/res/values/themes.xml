@@ -3,7 +3,7 @@
     <style name="Base.Theme.JobPortal" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
-        <item name="colorPrimary">#3F51B5</item>
+        <item name="colorPrimary">#078CF6</item>
         <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
     </style>
 

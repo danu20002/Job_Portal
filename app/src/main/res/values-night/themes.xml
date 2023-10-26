@@ -3,7 +3,7 @@
     <style name="Base.Theme.JobPortal" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your dark theme here. -->
         <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
-        <item name="colorPrimary">#3F51B5</item>
+        <item name="colorPrimary">#038BF7</item>
         <item name="colorSecondary">#0E0E0E</item>
 
 
